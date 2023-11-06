@@ -1,18 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Signup from "./Signup";
+import {
+  FluentProvider,
+  webLightTheme,
+} from "@fluentui/react-components";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-         Melting pot
-      </header>
-    </div>
+    <FluentProvider theme={webLightTheme}>
+      <div className="App">
+        <header>
+          <h2>mingle & munch</h2>
+        </header>
+        <Signup />
+      </div>
+    </FluentProvider>
   );
 }
 
