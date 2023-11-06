@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/melting-pot/static/css/main.d583b752.css",
-    "main.js": "/melting-pot/static/js/main.0fa53096.js",
-    "static/js/787.de2bbeeb.chunk.js": "/melting-pot/static/js/787.de2bbeeb.chunk.js",
-    "index.html": "/melting-pot/index.html",
-    "main.d583b752.css.map": "/melting-pot/static/css/main.d583b752.css.map",
-    "main.0fa53096.js.map": "/melting-pot/static/js/main.0fa53096.js.map",
-    "787.de2bbeeb.chunk.js.map": "/melting-pot/static/js/787.de2bbeeb.chunk.js.map"
+    "main.css": "/static/css/main.d583b752.css",
+    "main.js": "/static/js/main.4d2f6acd.js",
+    "static/js/787.de2bbeeb.chunk.js": "/static/js/787.de2bbeeb.chunk.js",
+    "index.html": "/index.html",
+    "main.d583b752.css.map": "/static/css/main.d583b752.css.map",
+    "main.4d2f6acd.js.map": "/static/js/main.4d2f6acd.js.map",
+    "787.de2bbeeb.chunk.js.map": "/static/js/787.de2bbeeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d583b752.css",
-    "static/js/main.0fa53096.js"
+    "static/js/main.4d2f6acd.js"
   ]
 }
