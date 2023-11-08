@@ -4,6 +4,7 @@ import { HashRouter } from "react-router-dom";
 import Signup from "./Signup";
 import { FluentProvider, webLightTheme } from "@fluentui/react-components";
 import "./App.css";
+import Title from "./Title";
 
 const Thanks = () => <div>Thank you ...</div>;
 
@@ -13,7 +14,7 @@ function App() {
       <HashRouter>
         <div className="App">
           <header className="App-header">
-            <h2>mingle & munch</h2>
+            <Title/>
           </header>
           <main className="content">
             <Routes>
