@@ -11,7 +11,7 @@ export default function () {
   }
   return (
     <section className="signup-container">
-      <Widget id="HAsS6rLn" className="signup-form" />
+      <Widget id="HAsS6rLn" className="signup-form" autoResize />
     </section>
   );
 }
