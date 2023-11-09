@@ -7,7 +7,7 @@ export default function () {
   const [showForm, setShowForm] = useState(false);
 
   if (!showForm) {
-    return <Button onClick={() => setShowForm(true)}>Sign up</Button>;
+    return <Button shape="square" onClick={() => setShowForm(true)}>join now</Button>;
   }
   return (
     <section className="signup-container">

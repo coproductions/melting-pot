@@ -5,6 +5,16 @@
   font-family: "Karla", serif;
 }
 
+.main-image {
+  background-image: url("./images/table-of-4.png");
+  background-size: cover;
+
+  width: 60vw;
+  height: 50vw;
+  max-width: 600px;
+  max-height: 500px;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -15,6 +25,7 @@
 }
 
 .App-header {
+  margin-top: 30px;
   width: 100%;
   text-align: center;
   min-height: 20%;
