@@ -14,6 +14,7 @@ export default function StepText() {
   return (
     <div className={styles.container}>
       <div className={styles.listContainer}>
+        <div className={styles.preAmble}>mingle & munch is a new concept combining good food with meeting new people in Seattle. Here is how it works:</div>
         <ol className={styles.list}>
           {steps.map((step) => (
             <li className={styles.listItem} key={step}>{step}</li>
