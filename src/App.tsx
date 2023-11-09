@@ -4,19 +4,32 @@ import Signup from "./components/Signup";
 import { FluentProvider } from "@fluentui/react-components";
 import "./App.css";
 import Title from "./components/Title";
-import { defaultTheme } from "./themes/default-theme";
+import { defaultTheme, theme2 } from "./themes/default-theme";
 import Footer from "./components/Footer";
+import ImageBanner from "./components/ImageBanner";
+
+function getTheme(theme?: string | null) {
+  switch (theme) {
+    case "2":
+      return theme2;
+    default:
+      return defaultTheme;
+  }
+}
 
 const Thanks = () => <div>Thank you ...</div>;
 
 function App() {
+  const queryParameters = new URLSearchParams(window.location.search);
+  const theme = queryParameters.get("theme");
+
   return (
-    <FluentProvider theme={defaultTheme}>
+    <FluentProvider theme={getTheme(theme)}>
       <HashRouter>
         <div className="App">
           <header className="App-header">
             <Title />
-            <div className={"main-image"}></div>
+            <ImageBanner theme={theme}/>
           </header>
           <main className="content">
             <Routes>
@@ -26,7 +39,7 @@ function App() {
           </main>
         </div>
       </HashRouter>
-      <Footer/>
+      <Footer />
     </FluentProvider>
   );
 }

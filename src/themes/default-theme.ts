@@ -6,3 +6,8 @@ export const defaultTheme = {
   defaultFontStyle: { fontFamily: "Karla" },
   colorBrandBackground: '#EA6696'
 };
+
+export const theme2 = {
+    ...defaultTheme,
+    colorBrandBackground: '#73ABCD'
+}
