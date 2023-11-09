@@ -7,6 +7,7 @@ import Title from "./components/Title";
 import { defaultTheme, theme2 } from "./themes/default-theme";
 import Footer from "./components/Footer";
 import ImageBanner from "./components/ImageBanner";
+import FaqNav from "./components/FaqNav";
 
 function getTheme(theme?: string | null) {
   switch (theme) {
@@ -26,10 +27,11 @@ function App() {
   return (
     <FluentProvider theme={getTheme(theme)}>
       <HashRouter>
+        <FaqNav />
         <div className="App">
           <header className="App-header">
             <Title />
-            <ImageBanner theme={theme}/>
+            <ImageBanner theme={theme} />
           </header>
           <main className="content">
             <Routes>

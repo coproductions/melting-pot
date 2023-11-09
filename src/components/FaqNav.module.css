@@ -1,0 +1,19 @@
+.container {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  margin-right: 3px;
+  font-weight: 300;
+}
+
+.insta {
+  transform: translateY(3px);
+  &:hover {
+    opacity: 0.6;
+  }
+}
