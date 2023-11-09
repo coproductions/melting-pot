@@ -7,6 +7,7 @@ const steps = [
 //   "Join the dinner with other invitees at a restaurant in your preferred neighbourhood.",
   "Enjoy your mingle & munch culinary social experience.",
   "Pay your own bill + tip.",
+  "Repeat.",
 ];
 
 export default function StepText() {
