@@ -5,6 +5,7 @@ import { FluentProvider } from "@fluentui/react-components";
 import "./App.css";
 import Title from "./components/Title";
 import { defaultTheme } from "./themes/default-theme";
+import Footer from "./components/Footer";
 
 const Thanks = () => <div>Thank you ...</div>;
 
@@ -25,6 +26,7 @@ function App() {
           </main>
         </div>
       </HashRouter>
+      <Footer/>
     </FluentProvider>
   );
 }
