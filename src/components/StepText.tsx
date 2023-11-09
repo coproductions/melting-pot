@@ -16,7 +16,7 @@ export default function StepText() {
       <div className={styles.listContainer}>
         <ol className={styles.list}>
           {steps.map((step) => (
-            <li key={step}>{step}</li>
+            <li className={styles.listItem} key={step}>{step}</li>
           ))}
         </ol>
       </div>
