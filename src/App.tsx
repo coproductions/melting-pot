@@ -1,8 +1,7 @@
-import React from "react";
 import { Route, Routes } from "react-router";
 import { HashRouter } from "react-router-dom";
 import Signup from "./Signup";
-import { FluentProvider, webLightTheme} from "@fluentui/react-components";
+import { FluentProvider } from "@fluentui/react-components";
 import "./App.css";
 import Title from "./Title";
 import { defaultTheme } from "./themes/default-theme";
@@ -15,8 +14,8 @@ function App() {
       <HashRouter>
         <div className="App">
           <header className="App-header">
-            <Title/>
-            <div className={'main-image'}></div>
+            <Title />
+            <div className={"main-image"}></div>
           </header>
           <main className="content">
             <Routes>
