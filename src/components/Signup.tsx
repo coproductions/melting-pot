@@ -17,7 +17,7 @@ export default function () {
         </Button>
         <div className={styles.disclaimer}>
         * Once admin fees are covered, all proceeds collected will be donated to
-        charities focused on homelessness and other causes in Seattle.{" "}
+        charities focused on addressing homelessness in Seattle.
       </div>
       </>
     );
