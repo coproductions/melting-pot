@@ -16,7 +16,7 @@ export default function () {
           join now
         </Button>
         <div className={styles.disclaimer}>
-        * Once admin fees are covered, all proceeds will be donated to
+        * Once admin fees are covered, all remaining proceeds will be donated to
         charities focused on addressing homelessness in Seattle.
       </div>
       </>
