@@ -1,0 +1,26 @@
+.container {
+    /* display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px; */
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+.listContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.list {
+    font-size: medium;
+    line-height: 2;
+    max-width: 500px;
+}
+
+.disclaimer {
+    padding: 30px;
+}

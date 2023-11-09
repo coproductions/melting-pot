@@ -1,4 +1,4 @@
-import Logo from "./Logo";
+import Logo from "../Logo";
 import styles from "./Title.module.css";
 
 export default function Title() {

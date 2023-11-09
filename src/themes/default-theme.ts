@@ -4,4 +4,5 @@ export const defaultTheme = {
   ...webLightTheme,
   fontFamilyBase: 'Karla',
   defaultFontStyle: { fontFamily: "Karla" },
+  colorBrandBackground: '#EA6696'
 };

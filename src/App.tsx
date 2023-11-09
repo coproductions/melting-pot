@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router";
 import { HashRouter } from "react-router-dom";
-import Signup from "./Signup";
+import Signup from "./components/Signup";
 import { FluentProvider } from "@fluentui/react-components";
 import "./App.css";
-import Title from "./Title";
+import Title from "./components/Title";
 import { defaultTheme } from "./themes/default-theme";
 
 const Thanks = () => <div>Thank you ...</div>;
