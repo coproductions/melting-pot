@@ -2,7 +2,7 @@ import styles from "./StepText.module.css";
 
 const steps = [
   "Join mingle & munch society.",
-  "Receive invites to a shared restaurant dinner in your preferred neighbourhood.",
+  "Receive invites to shared restaurant dinners in your preferred neighbourhood.",
   "Accept an invite and pay $10 to attend*.",
 //   "Join the dinner with other invitees at a restaurant in your preferred neighbourhood.",
   "Enjoy your mingle & munch culinary social experience.",
