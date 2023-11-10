@@ -1,7 +1,7 @@
-import { Button, Link } from "@fluentui/react-components";
+import { Link } from "@fluentui/react-components";
 import InstaIcon from "../images/InstaIcon";
 import styles from "./FaqNav.module.css";
-import { useLocation, useHref, Link as RouteLink } from "react-router-dom";
+import { useLocation, Link as RouteLink } from "react-router-dom";
 
 export default function FaqNav() {
   const { pathname } = useLocation();
