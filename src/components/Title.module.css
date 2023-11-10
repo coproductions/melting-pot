@@ -5,6 +5,12 @@
 }
 
 .text {
-  font-size:x-large;
-  padding: 5px;
+  font-size:xx-large;
+  padding: 10px;
+
+  @media (max-width: 800px) {
+    /* … */
+    font-size:x-large;
+    padding: 5px;
+  }
 }
