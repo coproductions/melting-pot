@@ -1,7 +1,7 @@
 import { Button, Link } from "@fluentui/react-components";
 import InstaIcon from "../images/InstaIcon";
 import styles from "./FaqNav.module.css";
-import { useLocation } from "react-router-dom";
+import { useLocation, useHref, Link as RouteLink } from "react-router-dom";
 
 export default function FaqNav() {
   const { pathname } = useLocation();
@@ -10,13 +10,13 @@ export default function FaqNav() {
   return (
     <div className={styles.container}>
       {isFaqPage ? (
-        <Link className={styles.link} appearance="subtle" href="#">
+        <RouteLink className={styles.link} to="/">
           home
-        </Link>
+        </RouteLink>
       ) : (
-        <Link className={styles.link} appearance="subtle" href="#faq">
+        <RouteLink to="faq" className={styles.link}>
           faq
-        </Link>
+        </RouteLink>
       )}
       <Link
         className={styles.insta}

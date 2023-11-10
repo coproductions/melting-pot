@@ -8,12 +8,27 @@
 
 .link {
   margin-right: 3px;
-  font-weight: 300;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 0.6;
+  }
+  &:active {
+    opacity: 1;
+  }
 }
 
 .insta {
   transform: translateY(3px);
+  opacity: 0.8;
+
   &:hover {
     opacity: 0.6;
+  }
+  &:active {
+    opacity: 1;
   }
 }
