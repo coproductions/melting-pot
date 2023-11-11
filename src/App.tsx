@@ -11,7 +11,6 @@ import FaqNav from "./components/FaqNav";
 import Faq from "./components/Faq";
 import Home from "./components/Home";
 import { useStore } from "./state/useStore";
-import { useEffect } from "react";
 
 function getTheme(theme?: string | null) {
   switch (theme) {
@@ -25,12 +24,7 @@ function getTheme(theme?: string | null) {
 const Thanks = () => <div>Thank you ...</div>;
 
 function App() {
-  // const queryParameters = new URLSearchParams(window.location.search);
-  const {theme, setTheme} = useStore();
-
-  // useEffect(() => {
-  //   setTheme(getTheme(queryParameters.get('theme')));
-  // }, []);
+  const { theme } = useStore();
 
   return (
     <FluentProvider theme={theme}>
