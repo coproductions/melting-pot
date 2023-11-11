@@ -8,6 +8,7 @@ import { defaultTheme, theme2 } from "./themes/default-theme";
 import Footer from "./components/Footer";
 import ImageBanner from "./components/ImageBanner";
 import FaqNav from "./components/FaqNav";
+import Faq from "./components/Faq";
 
 function getTheme(theme?: string | null) {
   switch (theme) {
@@ -37,6 +38,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Signup />} />
               <Route path="/thanks" element={<Thanks />} />
+              <Route path="/faq" element={<Faq />} />
             </Routes>
           </main>
         </div>

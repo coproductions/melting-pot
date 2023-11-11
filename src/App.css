@@ -9,7 +9,7 @@
   font-family: "Karla", serif;
 }
 
-.default-image {
+.theme-2-image {
   background-image: url("./images/table-of-4.png");
   background-size: cover;
 
@@ -19,7 +19,7 @@
   max-height: 500px;
 }
 
-.theme-2-image {
+.default-image {
   background-image: url("./images/table-of-8.png");
   background-size: cover;
 
