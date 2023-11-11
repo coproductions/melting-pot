@@ -20,6 +20,9 @@
     opacity: 1;
   }
 }
+.selected {
+    text-decoration: underline;
+}
 
 .insta {
   transform: translateY(3px);

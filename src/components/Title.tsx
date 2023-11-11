@@ -1,6 +1,6 @@
 import Logo from "../Logo";
 import styles from "./Title.module.css";
-import { useLocation, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Title() {
   return (

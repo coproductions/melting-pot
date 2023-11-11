@@ -1,11 +1,10 @@
 [
-    {
-      "Q": "The question1?",
-      "A": "The answer"
-    },
-    {
-      "Q": "The question2?",
-      "A": "The answer"
-    }
-  ]
-  
+  {
+    "Q": "Can I bring a friend to a mingle & munch dinner?",
+    "A": "Yes. When you receive a reservation link, you can select to add a reservation for 1 or 2 people. If your friend is also a mingle & munch member, just make sure you don't both make a 2-person reservation to the same event."
+  },
+  {
+    "Q": "The question2?",
+    "A": "The answer"
+  }
+]

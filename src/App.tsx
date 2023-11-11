@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import ImageBanner from "./components/ImageBanner";
 import FaqNav from "./components/FaqNav";
 import Faq from "./components/Faq";
+import Home from "./components/Home";
 
 function getTheme(theme?: string | null) {
   switch (theme) {
@@ -36,9 +37,14 @@ function App() {
           </header>
           <main className="content">
             <Routes>
-              <Route path="/" element={<Signup />} />
+              <Route path="/" element={<Home />} />
               <Route path="/thanks" element={<Thanks />} />
               <Route path="/faq" element={<Faq />} />
+            </Routes>
+            <Routes>
+              <Route path="/" element={<Signup />} />
+              <Route path="/thanks" element={<></>} />
+              <Route path="/faq" element={<Signup />} />
             </Routes>
           </main>
         </div>

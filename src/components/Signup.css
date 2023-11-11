@@ -1,13 +1,15 @@
 .signup-container {
   width: 80%;
   max-width: 600px;
+  margin-bottom: 30px;
 }
 
 .signup-form {
     /* height: 400px; */
 }
 
-.signup-button {
-  /* font-weight: 500 !important; */
-  /* background-color: 'EA6696'; */
+
+.button-container {
+  margin-bottom: 40px;
+
 }
