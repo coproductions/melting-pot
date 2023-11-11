@@ -2,6 +2,8 @@ import faq from "../faq.json";
 import styles from "./Faq.module.css";
 import { FluentProvider } from "@fluentui/react-components";
 import { defaultTheme, theme2 } from "../themes/default-theme";
+import { useStore } from "../state/useStore";
+import { useEffect } from "react";
 
 type FaqType = {
   Q: string;
@@ -17,6 +19,12 @@ function FaqItem({ Q, A }: FaqType) {
 }
 
 export default function Faq() {
+  const setTheme = useStore((state) => state.setTheme);
+
+  useEffect(() => {
+    setTheme(theme2);
+  }, []);
+
   return (
     <FluentProvider theme={theme2}>
       <div className={styles.container}>
