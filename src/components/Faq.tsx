@@ -1,9 +1,9 @@
 import faq from "../faq.json";
 import styles from "./Faq.module.css";
-import { FluentProvider } from "@fluentui/react-components";
-import { defaultTheme, theme2 } from "../themes/default-theme";
+import { theme2 } from "../themes/default-theme";
 import { useStore } from "../state/useStore";
 import { useEffect } from "react";
+import { Link } from "@fluentui/react-components";
 
 type FaqType = {
   Q: string;
@@ -26,13 +26,17 @@ export default function Faq() {
   }, []);
 
   return (
-    <FluentProvider theme={theme2}>
-      <div className={styles.container}>
-        <h2>FAQ</h2>
-        {faq.map((item) => (
-          <FaqItem key={item.Q} {...item} />
-        ))}
+    <div className={styles.container}>
+      <h2>FAQ</h2>
+      {faq.map((item) => (
+        <FaqItem key={item.Q} {...item} />
+      ))}
+      <div className={styles.contact}>
+        If you have any more questions. Drop us a line{" "}
+        <Link appearance="subtle" href="mailto:hi@mingle-munch.com">
+          hi@mingle-munch.com
+        </Link>
       </div>
-    </FluentProvider>
+    </div>
   );
 }

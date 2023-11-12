@@ -10,10 +10,9 @@ export default function () {
   const setTheme = useStore((state) => state.setTheme);
 
   useEffect(() => {
-    console.log("setting theme");
     setTheme(defaultTheme);
   }, []);
-  
+
   return (
     <div className={styles.container}>
       <div className={styles.innerContainer}>

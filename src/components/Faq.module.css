@@ -10,10 +10,15 @@
 .container {
     padding: 0 40px;
     max-width: 800px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .line {
     margin-bottom: 10px;
+}
+
+.contact {
+    margin-top: 20px;
+    text-align: center;
 }
 
