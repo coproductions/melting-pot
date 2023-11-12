@@ -32,7 +32,7 @@ function App() {
         <div className="App">
           <header className="App-header">
             <Title />
-            <ImageBanner theme={theme} />
+            <ImageBanner />
           </header>
           <main className="content">
             <Routes>

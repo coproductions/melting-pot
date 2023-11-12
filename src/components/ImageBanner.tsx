@@ -5,27 +5,15 @@ function ImageMain() {
 }
 
 function Image2() {
-    return <div className={"theme-2-image"}></div>;
-  }
+  return <div className={"theme-2-image"}></div>;
+}
 
-export default function ImageBanner({ theme }: { theme: string | null }) {
-  switch (theme) {
-    case "2":
-      return <div className={"theme-2-image"}></div>;
-    case "1":
-    default:
-      return (
-        <Routes>
-          <Route path="/" element={<ImageMain/>} />
-          <Route
-            path="/thanks"
-            element={<Image2/>}
-          />
-          <Route
-            path="/faq"
-            element={<Image2/>}
-          />
-        </Routes>
-      );
-  }
+export default function ImageBanner() {
+  return (
+    <Routes>
+      <Route path="/" element={<ImageMain />} />
+      <Route path="/thanks" element={<Image2 />} />
+      <Route path="/faq" element={<Image2 />} />
+    </Routes>
+  );
 }
