@@ -11,6 +11,7 @@ import FaqNav from "./components/FaqNav";
 import Faq from "./components/Faq";
 import Home from "./components/Home";
 import { useStore } from "./state/useStore";
+import Thanks from "./components/Thanks";
 
 function getTheme(theme?: string | null) {
   switch (theme) {
@@ -20,8 +21,6 @@ function getTheme(theme?: string | null) {
       return defaultTheme;
   }
 }
-
-const Thanks = () => <div>Thank you ...</div>;
 
 function App() {
   const { theme } = useStore();

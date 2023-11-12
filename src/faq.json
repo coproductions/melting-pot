@@ -4,7 +4,11 @@
     "A": "Yes. When you receive a reservation link, you can select to add a reservation for 1 or 2 people. If your friend is also a mingle & munch member, just make sure you don't both make a 2-person reservation to the same event."
   },
   {
-    "Q": "The question2?",
-    "A": "The answer"
+    "Q": "How often can I expect to receive an invitation to a shared dinner?",
+    "A": "Initially you can expect to receive an invitation every Thursday and Saturday. So don't worry if you can't make it. The next invitation is just a few days away."
+  },
+  {
+    "Q": "What happens if I need to cancel after having accepted an invitation?",
+    "A": "If you need to cancel, you can just reach out to us and let us know. If you cancel more than 24h before then planned dinner, we will reimburse your $10 booking fee."
   }
 ]
