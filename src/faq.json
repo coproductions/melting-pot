@@ -1,14 +1,46 @@
 [
   {
     "Q": "Can I bring a friend to a mingle & munch dinner?",
-    "A": "Yes. When you receive a reservation link, you can select to add a reservation for 1 or 2 people. If your friend is also a mingle & munch member, just make sure you don't both make a 2-person reservation to the same event."
+    "A": "Yes. When you receive a reservation link, you will be able to make a reservation for 1 or 2 people."
   },
   {
-    "Q": "How often can I expect to receive an invitation to a shared dinner?",
-    "A": "You can expect to receive an invitation every Thursday and Saturday. So don't worry if you can't make it. The next invitation is just a few days away."
+    "Q": "How often will I receive an invitation to a shared dinner?",
+    "A": "You should receive an invitation every Thursday and Saturday. This will include details of the venue and times. Don't worry if you can't make it, the next invitation is just a few days away."
   },
   {
-    "Q": "What happens if I need to cancel after having accepted an invitation?",
-    "A": "If you need to cancel, you can just reach out to us and let us know. If you cancel more than 24h before, we will reimburse your $10 booking fee."
+    "Q": "What happens if I need to cancel after accepting an invitation?",
+    "A": "If you need to cancel, you can just reach out to us and let us know. If you cancel more than 24 hours before the event is due to start, we will reimburse your $10 booking fee."
+  },
+  {
+    "Q": "How the money will be used?",
+    "A": "The money will be donated to charities working on reducing homelessness around Seattle. We will also consider other good causes around Seattle that need immediate attention."
+  },
+  {
+    "Q": "How much time will I have to book my dinner spot?",
+    "A": "When you receive your invite for dinner, the link will be active for about 3 hours. After that point the link will become inactive. If you have missed the booking and really want to come, please reach out to us and we’ll see if there is still any availability for that evening."
+  },
+  {
+    "Q": "What about any special dietary requirements?",
+    "A": "We advise contacting the restaurant before booking if you have any concerns (for example, nut allergies, vegan options)."
+  },
+  {
+    "Q": "Who pays for dinner and tip?",
+    "A": "Each participant pays their own bill. We encourage you to tip generously."
+  },
+  {
+    "Q": "How many dinners can I attend?",
+    "A": "As many as you like."
+  },
+  {
+    "Q": "How to dress?",
+    "A": "Whatever makes you feel comfortable and happy."
+  },
+  {
+    "Q": "What happens during the dinner?",
+    "A": "You enjoy your food and drink and great conversation. Please be courteous towards other guests. Everyone is going to be different and exciting in their own ways. Embrace these differences and enjoy your evening."
+  },
+  {
+    "Q": "What happens after dinner?",
+    "A": "If you want to keep in touch with some of the guests from the evening, feel free to exchange contact details. We do not facilitate any communication during or after dinner and cannot share anyone’s contact details."
   }
 ]
