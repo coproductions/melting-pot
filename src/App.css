@@ -9,6 +9,16 @@
   font-family: "Karla", serif;
 }
 
+.thank-you-image {
+  background-image: url("./images/thankyou-min.png");
+  background-size: cover;
+
+  width: 60vw;
+  height: 50vw;
+  max-width: 600px;
+  max-height: 500px;
+}
+
 .theme-2-image {
   background-image: url("./images/table-of-4.png");
   background-size: cover;

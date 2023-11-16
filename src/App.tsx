@@ -12,6 +12,7 @@ import Faq from "./components/Faq";
 import Home from "./components/Home";
 import { useStore } from "./state/useStore";
 import Thanks from "./components/Thanks";
+import { DiffieHellmanGroup } from "crypto";
 
 function getTheme(theme?: string | null) {
   switch (theme) {
