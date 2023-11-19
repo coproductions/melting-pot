@@ -12,6 +12,7 @@ export default function Title() {
         </span>
         <span className={styles.text}>munch</span>
       </div>
+      <div className={styles.seattle}>seattle</div>
     </Link>
   );
 }
