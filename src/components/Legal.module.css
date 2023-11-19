@@ -1,0 +1,14 @@
+.container {
+  max-width: 600px;
+  padding: 30px;
+  & h1 {
+    line-height: 1.2;
+  }
+}
+
+.closeContainer {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+}

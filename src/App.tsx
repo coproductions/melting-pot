@@ -12,7 +12,7 @@ import Faq from "./components/Faq";
 import Home from "./components/Home";
 import { useStore } from "./state/useStore";
 import Thanks from "./components/Thanks";
-import { DiffieHellmanGroup } from "crypto";
+import Legal from "./components/Legal";
 
 function getTheme(theme?: string | null) {
   switch (theme) {
@@ -40,16 +40,18 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/thanks" element={<Thanks />} />
               <Route path="/faq" element={<Faq />} />
+              <Route path="/legal" element={<Legal />} />
+              <Route path="/*" element={<></>} />
             </Routes>
             <Routes>
               <Route path="/" element={<Signup />} />
-              <Route path="/thanks" element={<></>} />
               <Route path="/faq" element={<Signup />} />
+              <Route path="/*" element={<></>} />
             </Routes>
           </main>
         </div>
+        <Footer />
       </HashRouter>
-      <Footer />
     </FluentProvider>
   );
 }

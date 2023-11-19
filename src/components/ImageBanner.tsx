@@ -20,6 +20,7 @@ export default function ImageBanner() {
       <Route path="/" element={<ImageMain />} />
       <Route path="/thanks" element={<ThankyouImage />} />
       <Route path="/faq" element={<Image2 />} />
+      <Route path="/legal" element={<></>} />
     </Routes>
   );
 }
