@@ -44,7 +44,6 @@ function App() {
               <Route path="/*" element={<></>} />
             </Routes>
             <Routes>
-              <Route path="/" element={<Signup />} />
               <Route path="/faq" element={<Signup />} />
               <Route path="/*" element={<></>} />
             </Routes>

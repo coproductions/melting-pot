@@ -5,6 +5,7 @@ import { Link } from "@fluentui/react-link";
 import { useStore } from "../state/useStore";
 import { defaultTheme } from "../themes/default-theme";
 import classNames from "classnames";
+import Signup from "./Signup";
 
 export default function () {
   const [showSteps, setShowSteps] = useState(false);
@@ -30,8 +31,9 @@ export default function () {
         >
           Tell me more...
         </Link>
+        {!showSteps && <div className={styles.spacer}></div>}
         {showSteps && <StepText />}
-
+        <Signup />
         {showSteps && (
           <div className={styles.disclaimer}>
             * Once admin fees are covered, all remaining proceeds will be

@@ -10,11 +10,15 @@
 }
 
 .link {
-    font-size: medium !important;
-    text-decoration: underline !important;
-    &:hover {
-      opacity: 0.7;
-    }
+  font-size: medium !important;
+  text-decoration: underline !important;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.spacer {
+  height: 30px;
 }
 
 .fade {
@@ -31,9 +35,9 @@
     transform: scale(0);
     opacity: 0;
     height: 0;
+    margin-bottom: 0 !important;
   }
 }
-
 
 .innerContainer {
   display: flex;
