@@ -4,6 +4,7 @@ import StepText from "./StepText";
 import { Link } from "@fluentui/react-link";
 import { useStore } from "../state/useStore";
 import { defaultTheme } from "../themes/default-theme";
+import classNames from "classnames";
 
 export default function () {
   const [showSteps, setShowSteps] = useState(false);
@@ -19,14 +20,16 @@ export default function () {
         <div className={styles.text}>
           mingle & munch is a new concept for enjoying good food and meeting new
           people in Seattle.{" "}
-          <Link
-            className={styles.link}
-            appearance="subtle"
-            onClick={() => setShowSteps(true)}
-          >
-            Tell me more...
-          </Link>
         </div>
+        <Link
+          className={classNames(styles.link, {
+            [styles.fade]: showSteps,
+          })}
+          appearance="subtle"
+          onClick={() => setShowSteps(true)}
+        >
+          Tell me more...
+        </Link>
         {showSteps && <StepText />}
 
         {showSteps && (
