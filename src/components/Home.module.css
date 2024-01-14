@@ -11,6 +11,7 @@
 
 .link {
     font-size: medium !important;
+    text-decoration: underline !important;
 }
 
 .innerContainer {
